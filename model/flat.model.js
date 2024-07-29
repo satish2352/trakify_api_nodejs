@@ -12,7 +12,7 @@ const flatSchema = new mongoose.Schema({
     default: "available",
   },
   bhk: {
-    type: Number,
+    type: String,
     required: true,
   },
   area: {
